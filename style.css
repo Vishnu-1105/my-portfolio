@@ -19,7 +19,7 @@ body {
 }
 
 .home:hover {
-  text-decoration: underline;
+  color: #011414;
 }
 
 .projects {
@@ -29,7 +29,7 @@ body {
 }
 
 .projects:hover {
-  text-decoration: underline;
+  color: #011414;
 }
 
 .achievements {
@@ -38,7 +38,7 @@ body {
 }
 
 .achievements:hover {
-  text-decoration: underline;
+  color: #011414;
 }
 
 .logo {
@@ -84,7 +84,7 @@ hr {
 }
 
 a {
-  color: #11999E;
+  color: #043368;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
@@ -112,7 +112,8 @@ a:hover {
 
 .bottom-container {
   background-color: #66BFBF;
-  padding: 50px 0 20px;
+  padding: 50px 0 40px;
+  font-size: 25px;
 }
 
 .skill-row {
@@ -165,8 +166,8 @@ a:hover {
 
 .bottom-cloud {
   position: absolute;
-  left: 250px;
-  bottom: 300px;
+  left: 180px;
+  bottom: 320px;
 }
 
 .code-img {
