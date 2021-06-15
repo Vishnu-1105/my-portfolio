@@ -1,252 +1,209 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  background-color: #FAF1E6;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 .header {
-  background-color: #FFF5B7;
-  position: relative;
-}
-
-.logo {
-  height: 100px;
-  width: 100px;
-  padding: 2em 20em 2em 2em;
-  cursor: pointer;
-}
-
-.vvr {
-  height: 100px;
-  width: 100px;
-  padding-top: 1.5em;
-  position: absolute;
-  margin-right: 10px;
-  margin-left: 60%;
+  background-color: #FFD8CC;
+  height: 120px;
+  width: 100%;
+  display: flex;
 }
 
 .home {
-  position: absolute;
-  margin-left: 50%;
-  top: 70px;
-  font-size: 20px;
-  font-family: 'Fredericka the Great', cursive;
+  padding-top: 30px;
+  padding-right: 5%;
   cursor: pointer;
 }
 
-.about {
-  position: absolute;
-  margin-left: 57%;
-  top: 70px;
-  font-size: 20px;
-  font-family: 'Fredericka the Great', cursive;
-  cursor: pointer;
-}
-
-.work {
-  position: absolute;
-  margin-left: 64%;
-  top: 70px;
-  font-size: 20px;
-  font-family: 'Fredericka the Great', cursive;
-  cursor: pointer;
+.home:hover {
+  text-decoration: underline;
 }
 
 .projects {
-  position: absolute;
-  margin-left: 71%;
-  top: 70px;
-  font-size: 20px;
-  font-family: 'Fredericka the Great', cursive;
+  padding-top: 30px;
+  padding-right: 5%;
   cursor: pointer;
 }
 
-.info {
-  background-color: #FAF1E6;
+.projects:hover {
+  text-decoration: underline;
 }
 
-.name {
-  text-align: center;
-  padding-top: 1.5em;
-  font-family: 'Dancing Script', cursive;
-  font-size: 100px;
-  color: #00EAD3;
+.achievements {
+  padding-top: 30px;
+  cursor: pointer;
 }
 
-.desc {
-  text-align: center;
-  padding-top: 0.5em;
-  font-size: 30px;
-  font-family: 'Roboto Mono', monospace;
-  color: #064420;
+.achievements:hover {
+  text-decoration: underline;
 }
 
-.land {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.logo {
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  padding-left: 15%;
+  padding-right: 20%;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #8cf5f5 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.vvr {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
   width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
 }
 
 .pro {
   text-decoration: underline;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.DD {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 900;
+}
+
+.PS {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 900;
 }
 
 .intro {
-  background-color: #FFD8CC;
+  width: 30%;
+  margin: auto;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 23px;
+  font-weight: 900;
 }
 
-.logo-2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 200px;
-  width: 200px;
-  padding-top: 85px;
-}
-
-.stack {
-  padding-top: 20px;
-  padding-left: 33%;
-  font-size: 35px;
-  font-family: cursive;
-  color: #23f685;
-}
-
-.slogan {
-  padding-top: 5px;
-  padding-left: 37%;
-  font-size: 35px;
-  padding-bottom: 80px;
-  font-family: cursive;
-  color: #23f685;
-}
-
-.do {
-  background-color: #d3f8e7;
-  text-align: center;
-}
-
-.que {
-  padding-top: 80px;
-  padding-bottom: 40px;
-  letter-spacing: 2px;
-  word-spacing: 4px;
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
   font-size: 40px;
-  font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
-  color: rgb(201, 151, 248);
+  font-family: 'Fredoka One', cursive;
+  word-spacing: 15px;
 }
 
-.programming {
-  position: relative;
-  height: 100px;
-  width: 200px;
-  border-right: 400px;
-  padding-bottom: 40px;
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 
-.do-info {
-  font-family: cursive;
-  font-size: 25px;
-  color: rgb(201, 151, 248);
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
 }
 
-.do-info2 {
-  font-family: cursive;
-  font-size: 25px;
-  color: rgb(201, 151, 248);
-  padding-bottom: 80px;
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
 }
 
-.develop {
-  background-color: #F6DFEB;
-  text-align: center;
+.code-img {
+  width: 35%;
+  float: left;
+  margin-right: 30px;
 }
 
-.help {
-  padding-top: 80px;
-  padding-bottom: 40px;
-  text-align: center;
-  font-size: 2.8em;
-  font-weight: 400;
-  font-family: 'Courier New', Courier, monospace;
-  color: #480032;
+.web-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
 
-.freelance {
-  text-align: center;
-  font-size: 1.8em;
-  font-weight: 400;
-  font-family: 'Courier New', Courier, monospace;
-  color: #480032;
-  padding-bottom: 30px;
-}
-
-.project {
-  text-align: center;
-  font-size: 1.8em;
-  font-weight: 400;
-  font-family: 'Courier New', Courier, monospace;
-  color: #480032;
-  padding-bottom: 80px;
-}
-
-.footer {
-  height: 100px;
-  background-color: #F54748;
-}
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
-  margin: 5px 20px;
-  border-radius: 50%;
 }
 
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-  margin-left: 400px;
-  margin-top: 20px;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-pinterest {
-  background: #cb2027;
-  color: white;
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
