@@ -137,10 +137,10 @@ a:hover {
 }
 
 .intro {
-  width: 30%;
+  width: 50%;
   margin: auto;
   font-family: 'Source Code Pro', monospace;
-  font-size: 23px;
+  font-size: 30px;
   font-weight: 900;
 }
 
